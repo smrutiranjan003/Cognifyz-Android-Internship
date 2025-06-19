@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextPreference"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Preference"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Save Info"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/buttonView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="View Info" />
+
+</LinearLayout>
